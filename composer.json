@@ -1,0 +1,55 @@
+{
+    "name": "wdevs/laravel-serpstack",
+    "description": "Easily work with the Serpstack API in a Laravel application.",
+    "keywords": [
+        "wijnberg.dev",
+        "laravel-serpstack"
+    ],
+    "homepage": "https://github.com/Paulsky/laravel-serpstack",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Wijnberg Developments",
+            "email": "contact@wijnberg.dev",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "guzzlehttp/guzzle": "^6.5",
+        "illuminate/support": "^7.7"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^5.1",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "WDevs\\LaravelSerpstack\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "WDevs\\LaravelSerpstack\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "WDevs\\LaravelSerpstack\\LaravelSerpstackServiceProvider"
+            ],
+            "aliases": {
+                "LaravelSerpstack": "WDevs\\LaravelSerpstack\\LaravelSerpstackFacade"
+            }
+        }
+    }
+}
