@@ -6,8 +6,21 @@ Laravel package for the [Serpstack](https://serpstack.com/documentation) API.
 
 Run the following command to install this package into your project.
 
-```
+``` bash
 composer require wdevs/laravel-serpstack
+```
+
+Optional: publish the config files with the following command:
+
+``` bash
+php artisan vendor:publish --provider="WDevs\LaravelSerpstack\Providers\LaravelSerpstackServiceProvider"
+```
+
+Set the environment variables in your .env file like this:
+
+``` bash
+SERPSTACK_API_KEY="YOURAPIKEY"
+SERPSTACK_SECURE="true"
 ```
 
 ### Prerequisites
