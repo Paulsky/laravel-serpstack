@@ -12,7 +12,7 @@ composer require wdevs/laravel-serpstack
 
 ### Prerequisites
 
-You will need Composer to install this package.
+You will need Composer to install this package and a valid Serpstack API key.
 
 ### Installing
 
@@ -62,7 +62,7 @@ Run the tests in the Tests directory with PHPUnit.
 
 Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
 
-## Contributing
+### Contributing
 
 Please help us to develop this package. Every input and/or feedback is really appreciated! Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
@@ -70,10 +70,10 @@ Please help us to develop this package. Every input and/or feedback is really ap
 
 If you discover any security related issues, please email us instead of using the issue tracker.
 
-## Credits
+### Credits
 
 - [All Contributors](../../contributors)
 
-## License
+### License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
