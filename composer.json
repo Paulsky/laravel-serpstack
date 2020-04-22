@@ -45,10 +45,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "WDevs\\LaravelSerpstack\\LaravelSerpstackServiceProvider"
+                "WDevs\\LaravelSerpstack\\Providers\\LaravelSerpstackServiceProvider"
             ],
             "aliases": {
-                "LaravelSerpstack": "WDevs\\LaravelSerpstack\\LaravelSerpstackFacade"
+                "LaravelSerpstack": "WDevs\\LaravelSerpstack\\Providers\\LaravelSerpstackFacade"
             }
         }
     }
