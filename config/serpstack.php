@@ -9,5 +9,5 @@ return [
     /*
      * Should the connection run over HTTPS
      */
-    'secure'=> env('SERPSTACK_SECRUE', true),
+    'secure'=> env('SERPSTACK_SECURE', true),
 ];
