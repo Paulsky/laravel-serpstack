@@ -1,6 +1,6 @@
 # Serpstack Laravel API Client
 
-PHP package for the [Serpstack](https://serpstack.com/documentation) API.
+Laravel package for the [Serpstack](https://serpstack.com/documentation) API.
 
 ## Getting Started
 
@@ -55,7 +55,7 @@ Run the tests in the Tests directory with PHPUnit.
 
 * [Serpstack](https://serpstack.com) - For the API
 * [PHPUnit](https://github.com/sebastianbergmann/phpunit/) - Test Framework
-* [Laravel](https://github.com/laravel/framework) - Package framework
+* [Laravel](https://github.com/laravel/framework) - Package Framework
 * [Laravel Package Boilerplate](https://laravelpackageboilerplate.com) - For boiler template this package
 
 ### Changelog
