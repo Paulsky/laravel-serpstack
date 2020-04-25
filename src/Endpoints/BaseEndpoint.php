@@ -8,7 +8,7 @@ use Illuminate\Http\Client\RequestException;
 class BaseEndpoint
 {
 
-    private PendingRequest $client;
+    private $client;
 
     protected $endpoint;
 

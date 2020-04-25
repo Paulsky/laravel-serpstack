@@ -13,19 +13,19 @@ class LaravelSerpstack
     /**
      * @var PendingRequest
      */
-    private PendingRequest $client;
+    private $client;
 
     public static $API_ROUTE = 'api.serpstack.com/';
 
     /**
      * @var SearchEndpoint
      */
-    private SearchEndpoint $searchEndpoint;
+    private $searchEndpoint;
 
     /**
      * @var LocationEndpoint
      */
-    private LocationEndpoint $locationEndpoint;
+    private $locationEndpoint;
 
 
     public function __construct()
